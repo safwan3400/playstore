@@ -23,9 +23,9 @@ body {
     align-items: center;
 }
 
-.header img {
+.header .divone img{
     width: 20%;
-    padding: 0 30px;
+    padding: 0  30px;
 }
 .inputfield{
     display: flex;
@@ -46,11 +46,13 @@ body {
 
 .header .divtwo{
     display: flex;
+    padding-right: 3rem;
     
 }
-.header .divtwo img{
+.divtwo img{
     border-radius: 50%;
     width: 2rem;
+    margin: 2rem;
 
 }
 .header .divtwo i{
