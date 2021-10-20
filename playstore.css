@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    
+}
+.header .divone{
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 20%;
+    padding: 0 30px;
+}
+.inputfield{
+    display: flex;
+}
+.inputfield input{
+    width: 30rem;
+    margin-left: 1rem;
+}
+.inputfield i{
+
+    background: #4387fd;
+    align-self: center;
+    padding: .5rem;
+    width: 3rem;
+    text-align: center;
+    
+}
+
+.header .divtwo{
+    display: flex;
+    
+}
+.header .divtwo img{
+    border-radius: 50%;
+    width: 2rem;
+
+}
+.header .divtwo i{
+    align-self: center;
+    font-size: x-large;
+
+}
+.headertwo{
+    
+    display: flex;
+    height: 48px;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    background: #fff;
+    top: 0;
+    z-index: 1;
+}
+.headertwo aside{
+    background: #444;
+    color:#fff;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headertwo .icons{
+    margin: auto 5rem;
+    
+}
+.headertwo .icons button{
+    padding: .5rem 1rem;
+    margin: 0 1rem;
+    background: #fff;
+    border-radius: 5px;
+    border: .1px solid black;
+}
+
+.section aside{
+    position: fixed;
+    width: 200px; 
+    padding-top: 0;
+    top: 100px;
+}
+.section main{
+    margin-left: 200px;
+    width: 100%;
+    padding: 40px 40px 0 40px;
+    width: calc(100% - 250px);
+    position: relative;
+    top: 0;
+    
+}
+
+.section aside .partone{
+    background: #fff;
+
+}
+.section aside span:hover{
+    background: #689f38;
+}
+
+.section .partone li{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section .partone ul{
+    margin: 0;
+    padding: 0;
+}
+.section .partone li span{
+    padding: 1rem 4rem 1rem 1rem ;
+    margin: 0;
+    width: 65px;
+}
+.section .parttwo{
+    background: #eeeeee;
+    border-bottom-right-radius: 2px;
+
+}
+.section .parttwo ul{
+    list-style-type: none;
+    padding: 0 1rem;
+    margin-top: 5px;
+    
+}
+.section .parttwo li{
+    padding: 5px 0;
+    
+}
+.section .parttwo li:last-child{
+    padding-bottom: 1rem;
+    
+}
+
+main .partone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+main .partone a{
+    background: red;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 3rem;
+    
+}
+
+main .parttwo{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+   
+}
+main .parttwo .card{
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    
+ }
+
+main .parttwo .card .text{
+    padding: 1rem;
+    
+}
+
+
+
